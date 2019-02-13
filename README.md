@@ -15,20 +15,24 @@ From command prompt 1, run these commands:
 cd "c:\Program Files\petstore1.3.1_02"
 setup.bat
 
+
 From command prompt 2, run these commands:
 
 cd "c:\%J2EE_HOME%"\bin
 cloudscape.bat -start
+
 
 From command prompt 3, run these commands:
 
 cd "c:\%J2EE_HOME%"\bin
 j2ee.bat -verbose
 
+
 Go back to command prompt 1, and run: 
 setup.bat deploy. 
 
 This is going to deploy the data to the database. 
+
 
 Leave these 3 command prompts up and running in the background. 
 
@@ -39,4 +43,30 @@ The Consul binary is located in: C:\"Program Files"
 To run this binary, cd to the directory, and run it with consul.exe when it is time. 
 
 example:
+
  C:\ Program Files\>: consul.exe
+
+
+# Consul Configuration Directory
+
+The Consul configuration directory is located at: 
+
+C:\WINDOWS\system32\drivers\etc\consul.d
+
+
+Inside this folder there are 4 files and one directory. 
+
+
+The directory.json file contains a service configuration for the Directory for the jar files running on port 9191, it is not necessary to have this running, but it is a dependency for the Petstore Application so running it as a service is a good idea. 
+
+
+{
+  "service": {
+    "id": "directory", 
+    "name": "Directory Listing", 
+    "tags": ["legacy"], 
+    "address": "http://172.31.85.183", 
+    "port": 9191
+  }
+} 
+
