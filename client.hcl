@@ -1,0 +1,12 @@
+client_addr      = "0.0.0.0"
+data_dir         = "C:\\opt\\consul\\"
+datacenter       = "aj-east"
+log_level        = "INFO"
+server           = false
+datacenter       = "aj-east"
+encrypt          = "ZzEnzPuBzuzDoFskMMlgUA=="
+encrypt_verify_incoming = true
+encrypt_verify_outgoing = true
+ca_file                 = "C:\\WINDOWS\\system32\\drivers\\etc\\consul.d\\tls\\consul-agent-ca.pem"
+cert_file               = "C:\\WINDOWS\\system32\\drivers\\etc\\consul.d\\tls\\consul-agent-ca.pem"
+key_file                = "C:\\WINDOWS\\system32\\drivers\\etc\\consul.d\\tls\\consul-agent-ca-key.pem"

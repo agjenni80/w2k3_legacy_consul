@@ -60,13 +60,4 @@ Inside this folder there are 4 files and one directory.
 The directory.json file contains a service configuration for the Directory for the jar files running on port 9191, it is not necessary to have this running, but it is a dependency for the Petstore Application so running it as a service is a good idea. 
 
 
-{
-  "service": {
-    "id": "directory", 
-    "name": "Directory Listing", 
-    "tags": ["legacy"], 
-    "address": "http://172.31.85.183", 
-    "port": 9191
-  }
-} 
 

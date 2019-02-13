@@ -1,0 +1,11 @@
+{
+      	"service": {
+           "id": "petstore", 
+           "name": "petstore", 
+           "tags": ["legacy"], 
+           "address": "", 
+           "port": 8000,
+    
+	   "connect": {"sidecar_service": {} }
+       }
+}

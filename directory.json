@@ -1,0 +1,9 @@
+{
+	"service": {
+	    "id": "directory", 
+	    "name": "Directory Listing", 
+	    "tags": ["legacy"], 
+            "address": "http://172.31.85.183", 
+            "port": 9191
+       	}
+}
