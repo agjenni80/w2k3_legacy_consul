@@ -4,7 +4,7 @@ datacenter       = "aj-east"
 log_level        = "INFO"
 server           = false
 datacenter       = "aj-east"
-encrypt          = "ZzEnzPuBzuzDoFskMMlgUA=="
+encrypt          = "XXXXXXXXXXXXXXXXXXXXXXXXXXx"
 encrypt_verify_incoming = true
 encrypt_verify_outgoing = true
 ca_file                 = "C:\\WINDOWS\\system32\\drivers\\etc\\consul.d\\tls\\consul-agent-ca.pem"
